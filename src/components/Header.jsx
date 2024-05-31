@@ -6,7 +6,7 @@ import { faBehance } from "@fortawesome/free-brands-svg-icons";
 import { faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 import { faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { faTwitter } from "@fortawesome/free-brands-svg-icons";
-
+import game from './../../public/game.png'
 
 export default function Header() {
   return (
@@ -26,7 +26,7 @@ export default function Header() {
                         
                 </div>
                 <div className="cont2">
-                <img src={"./public/game.png"}  className="img1"/>
+                <img src={game}  className="img1"/>
               
                 <img src={"./public/pattren.png"} className="pattern5" />
                 <img src={"./public/pressStart.svg"} className="pattern2" /> 

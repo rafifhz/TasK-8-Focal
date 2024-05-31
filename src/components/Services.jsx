@@ -1,4 +1,5 @@
 import img6 from './../../public/brandingOrange.png'
+import img7 from './../../public/markiting.png'
 
 
 export default function Services() {
@@ -11,14 +12,14 @@ export default function Services() {
    
     },
     {
-      image: "./public/markiting.png",
+      image: img7,
       title: "Branding",
       paragraph1: "It is also the source of inspiration for everything you do when you deal with your customers and that is the important and emotional thing. Your Brand and Visual identity represents an intrinsic Value to your company.",
       paragraph2:"Visual identity design. Define Brand Identity.Define Brand personality. Building Your brand strategy. Market research and competitors study.",
    
     },
     {
-      image: "./public/brandingOrange.png",
+      image: img6,
       title: "Web/App Development      ",
       paragraph1: "It is also the source of inspiration for everything you do when you deal with your customers and that is the important and emotional thing. Your Brand and Visual identity represents an intrinsic Value to your company.",
       paragraph2:"Visual identity design. Define Brand Identity.Define Brand personality. Building Your brand strategy. Market research and competitors study.",
@@ -26,7 +27,7 @@ export default function Services() {
     },
   
     {
-      image: "./public/markiting.png",
+      image: img7,
       title: "B2B & Partnerships      ",
       paragraph1: "It is also the source of inspiration for everything you do when you deal with your customers and that is the important and emotional thing. Your Brand and Visual identity represents an intrinsic Value to your company.",
       paragraph2:"Visual identity design. Define Brand Identity.Define Brand personality. Building Your brand strategy. Market research and competitors study.",
@@ -147,7 +148,7 @@ marginLeft:"52px",
                 <p className='r' style={{width:"70%",marginTop:"-70px"}}>
                 {service.paragraph2}</p>
 
-                <img src={img6} style={{ width: "250px",marginTop:"-70px" }} />
+                <img src={img7} style={{ width: "250px",marginTop:"-70px" }} />
               </div>
               <h3 className='r' style={{
                 textAlign: "left",marginTop:"-70px"

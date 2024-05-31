@@ -147,7 +147,7 @@ marginLeft:"52px",
                 <p className='r' style={{width:"70%",marginTop:"-70px"}}>
                 {service.paragraph2}</p>
 
-                <img src={service.image} style={{ width: "250px",marginTop:"-70px" }} />
+                <img src={img6} style={{ width: "250px",marginTop:"-70px" }} />
               </div>
               <h3 className='r' style={{
                 textAlign: "left",marginTop:"-70px"

@@ -3,6 +3,8 @@ import { useState } from 'react';
 import { Icon } from 'react-icons-kit';
 import { menu } from 'react-icons-kit/feather/menu';
 import {x} from 'react-icons-kit/feather/x';
+import img5 from './../../public/logo.svg'
+
 
 export default function Navbar() {
   const [toggle,setToggle]=useState(false);
@@ -13,7 +15,7 @@ export default function Navbar() {
 
     <nav className={toggle ? 'navbar expanded' : 'navbar'}>
       <div className="logo">
-        <img src={"./public/logo.svg"} style={{ width: "80px" }} />
+        <img src={img5} style={{ width: "80px" }} />
         <p class="logotext">Digital marketing agency</p>
       </div>
       <div>

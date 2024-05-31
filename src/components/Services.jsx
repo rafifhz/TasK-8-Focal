@@ -4,7 +4,7 @@ import img6 from './../../public/brandingOrange.png'
 export default function Services() {
   const services = [
     {
-      image:src={img6},
+      image:img6,
       title: "Branding",
       paragraph1: "It is also the source of inspiration for everything you do when you deal with your customers and that is the important and emotional thing. Your Brand and Visual identity represents an intrinsic Value to your company.",
       paragraph2:"Visual identity design. Define Brand Identity.Define Brand personality. Building Your brand strategy. Market research and competitors study.",
@@ -93,7 +93,7 @@ marginLeft:"0px",
                 <p className='r' style={{width:"70%",marginTop:"-70px"}}>
                 {service.paragraph2}</p>
 
-                <img src={service.image} style={{ width: "250px",marginTop:"-70px" }} />
+                <img src={img6} style={{ width: "250px",marginTop:"-70px" }} />
               </div>
               <h3 className='r' style={{
                 textAlign: "left",marginTop:"-70px"

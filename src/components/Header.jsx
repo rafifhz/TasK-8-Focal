@@ -8,6 +8,10 @@ import { faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { faTwitter } from "@fortawesome/free-brands-svg-icons";
 import game from './../../public/game.png'
 import img2 from './../../public/pattren.png'
+import img3 from './../../public/pressStart.svg'
+import img4 from './../../public/gamefor-mobile.png'
+
+
 
 
 export default function Header() {
@@ -31,14 +35,14 @@ export default function Header() {
                 <img src={game}  className="img1"/>
               
                 <img src={img2} className="pattern5" />
-                <img src={"./public/pressStart.svg"} className="pattern2" /> 
+                <img src={img3} className="pattern2" /> 
                 <p class="start">START</p>
                 </div>
                 </section>
 
                 
                 <div className="foot-hero">
-                <img src={"./public/gamefor-mobile.png"}  className="img2"/>
+                <img src={img4}  className="img2"/>
             
 
        
